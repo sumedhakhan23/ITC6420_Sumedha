@@ -13,10 +13,6 @@ resource "aws_instance" "ec2" {
     network_interface_id = aws_network_interface.nic[each.value.name].id
     device_index         = 0
   }
-
-  credit_specification {
-    cpu_credits = "unlimited"
-  }
-
+    
   tags = each.value.tags
 }
