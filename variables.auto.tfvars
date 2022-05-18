@@ -22,8 +22,8 @@ instances = [
     subnet = "172.16.1.0/24"
     ips    = ["172.16.1.10"]
     tags = {
-      Name  = "Flugel"
-      Owner = "InfraTeam"
+      Name  = "my-project-vm-1"
+      Owner = "Sumedha"
     }
   },
   {
@@ -33,8 +33,8 @@ instances = [
     subnet = "172.16.1.0/24"
     ips    = ["172.16.1.20"]
     tags = {
-      Name  = "Flugel"
-      Owner = "InfraTeam"
+      Name  = "my-project-vm-2"
+      Owner = "Sumedha"
     }
   }
 ]
@@ -44,8 +44,8 @@ storage = [
     name = "jgomezve-aws-bucket"
     acl  = "private"
     tags = {
-      Name  = "Flugel"
-      Owner = "InfraTeam"
+      Name  = "my-project-storage"
+      Owner = "Sumedha"
     }
   }
 ]
